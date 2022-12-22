@@ -7,7 +7,7 @@
 
 html, body {
     height: 100vh;
-    width: 98vw;
+    width: 100vw;
     background-color: black;
     font-family: Arial, Helvetica, sans-serif;
 }
@@ -40,4 +40,24 @@ section#phone {
     left: 22px;
     height: 471px;
     width: 268px;
+}
+
+#socialmedia {
+    float: right;
+}
+
+#socialmedia img {
+    display: block;
+    height: 50px;
+    border-radius: 50%;
+    margin: 10px;
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.408);
+    box-sizing: border-box; /*faz com que a borda faça parte*/
+}
+
+#socialmedia img:hover {
+    border: 2px solid rgba(255, 255, 255, 0.609);
+    box-shadow: 2px 5px 10px rgba(0, 0, 0, 0.613);
+    transform: translate(-3px, -3px);
+    transition: transform .3s;
 }
